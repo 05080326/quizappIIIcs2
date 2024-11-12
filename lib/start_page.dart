@@ -8,7 +8,17 @@ class startpage extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Image.asset('assets/images/quiz-logo.png', width: 200),
+          Image.asset('assets/images/quiz-logo.png',
+              width: 300, color: const Color.fromARGB(150, 255, 255, 255)),
+          // const SizedBox(
+          //   height: 80,
+          // )
+          // Opacity(
+          //     opacity: 0.1,
+          //     child: Image.asset('assets/images/quiz-logo.png', width: 200)),
+          // const SizedBox(
+          //   height: 80,
+          // ),
           const SizedBox(
             height: 80,
           ),
